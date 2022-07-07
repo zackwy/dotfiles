@@ -7,6 +7,7 @@ pathEntries=(
 
 for entry in ${pathEntries[@]}; do export PATH=$PATH:$entry; done
 
+
 ### Aliases ###
 
 # Git
